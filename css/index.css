@@ -1,0 +1,13 @@
+html,body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;font-family: '\5FAE\8F6F\96C5\9ED1',Arial,'Hiragino Sans GB','\5B8B\4F53';word-wrap:break-word;word-break:break-All;}
+html{background-color: rgb(247, 247, 247);}
+a:link{color: rgb(65, 197, 107)}
+a:visited{color: rgb(169, 139, 139);}
+a:hover{}
+a:active{}
+.container{max-width: 800px;margin: 0 auto;padding:10px;font-size: 14px;}
+.radius{background-color: rgba(0,0,0,0.8);border-radius:15px;color: rgb(181, 193, 136);padding: 20px;}
+.issueSolveWay{padding: 5px 0;}
+.issueName{margin: 8px auto;}
+.issueReason mark{padding-left:4px;margin-right: 4px;background-color: #BF6D6D;}
+.issueSolveWay mark{padding-left:4px;margin-right: 4px;background-color: #3EDA82;}
+.issueExample mark{padding-left:4px;margin-right: 4px;background-color: #3EDA82;}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- <link rel="stylesheet" href="../../Public/base.css" /> -->
+	<title>测试active伪类</title>
+	<style>
+	.container div{background-color: #cfcfcf;width: 200px;height: 200px;}
+	.container div:active{background-color: green;}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="container">
+		<div onclick="window.location.href='#'"></div>
+	</div>
+	<footer></footer>
+	<script>
+	document.body.addEventListener('touchstart', function () { })
+	</script>
+</body>
+</html>
