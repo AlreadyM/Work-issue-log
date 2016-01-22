@@ -32,12 +32,33 @@ var issue = [
 	},
 	{
 		"name":"多行省略号",
+		"type":"style",
 		"getTime":"2016-01-06 16:24:57",
 		"solveTime":"2016-01-06 16:25:01",
 		"issueReason":"这个需求最变态，也最合理；需要显示指定行数，多余的用省略号代替",
 		"solveWay":"添加样式 overflow:hidden;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;",
 		"example":"null",
 		"recordTime":"2015-12-24 13:55:01"
+	},
+	{
+		"name":"动态生成元素无法正确绑定事件",
+		"type":"js",
+		"getTime":"2016-1-11 15:54:06",
+		"solveTime":"2016-01-11 16:25:01",
+		"issueReason":"通过js脚本动态添加的Dom",
+		"solveWay":"delegate,on(live is removed),binding function on every Dom(like this function abc (this) {<br/> do something here;<br/> })",
+		"example":"null",
+		"recordTime":"2016-1-12 09:54:28"
+	},
+	{
+		"name":"图片外层div高度与图片不一致",
+		"type":"js",
+		"getTime":"2016-1-21 11:35:51",
+		"solveTime":"2016-1-21 12:35:55",
+		"issueReason":"通过google了解到原因，img是一种类似text的元素，在结束的时候，会在末尾加上一个空白符，所以就会多出3px",
+		"solveWay":"设置img display属性为block",
+		"example":"null",
+		"recordTime":"2016-1-21 12:36:03"
 	}
 
 ];

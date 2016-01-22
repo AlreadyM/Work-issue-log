@@ -9,7 +9,7 @@ $(function  () {
 			// console.log(issue[i].example);
 			var link = librayPath+issue[i].example.link,
 				name = issue[i].example.name;
-			if (issue[i].example == "null") {
+			if (issue[i].example == "null"||issue[i].example == "") {
 				link = "javascript:;";name = "无示例";
 			};
 			console.log(link+"|"+name);
